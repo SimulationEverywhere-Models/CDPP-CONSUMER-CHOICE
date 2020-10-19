@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> consumerschoice </components>
+  </top>
+  <consumerschoice>
+    <type> cell </type>
+    <dim> (50, 50) </dim>
+    <delay> transport </delay>
+    <defaultDelayTime> 100 </defaultDelayTime>
+    <border> wrapped  </border>
+    <neighbors> consumerschoice(-1,-1)  consumerschoice(-1,0)
+      consumerschoice(-1,1)  </neighbors>
+    <neighbors> consumerschoice(0,-1)  consumerschoice(0,0)
+      consumerschoice(0,1) </neighbors>
+    <neighbors> consumerschoice(1,-1)  consumerschoice(1,0)
+      consumerschoice(1,1) </neighbors>
+    <initialvalue> 0 </initialvalue>
+    <initialcellsvalue> initialValues50_50.VAL </initialcellsvalue>
+    <localtransition> choose_rule </localtransition>
+  </consumerschoice>
+</CDPlusPlus_Builder_Version_1.0.0>
